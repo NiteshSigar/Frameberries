@@ -120,5 +120,44 @@ body {
 #textt{  
   padding-left: 70px;   
   text-decoration: underline orangered;
-  text-underline-position: under;
+  text-underline-position: under;  
+  font-weight: 400;
+}
+hr {
+  display: block;
+  margin-top: 0em;
+  margin-bottom: 0.5em;
+  margin-left: 70px;
+  margin-right: 70px;
+  border-style: inset;
+  border-width: 2px;
+}
+.card{
+  border: solid #e6e6e6;  
+}
+
+.col-md-12{
+  width: 90%;  
+  margin-left: 70px;
+  margin-top: 20px;  
+}
+.col-md-12 .col-md-3 .card .container{
+  width: 100%;
+}
+
+.col-md-12 .col-md-3 .card .container .QEbox {
+  background-image: linear-gradient(to bottom,grey , white);
+}
+.col-md-12 .col-md-3 .card .container .QEbox h4{
+  border-bottom: 2px solid orangered;
+}
+
+.col-md-12 .col-md-3 .card .container .QEbox .form-group{
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.btn{
+  background-color: orangered; color: whitesmoke;
+  float: right;
 }
