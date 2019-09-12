@@ -132,6 +132,9 @@ hr {
   border-style: inset;
   border-width: 2px;
 }
+.blocks{
+  
+}
 .card{
   border: solid #e6e6e6;  
 }
@@ -160,4 +163,18 @@ hr {
 .btn{
   background-color: orangered; color: whitesmoke;
   float: right;
+}
+.meritss{ 
+  background: url(d.jpg);
+  background-repeat: no-repeat; 
+  background-attachment: fixed; 
+  width: 100%; 
+  
+  position: relative;
+}
+
+.meritss .container .row{
+  color: whitesmoke;
+  font-size: 15px;
+  
 }
